@@ -1,11 +1,17 @@
 ---
-title:               Obtvse Demo
-tagline:             Clever tagline.
-login:               <%= ENV["obtvse_login"] ? ENV["obtvse_login"] : "username" %>
-password:            <%= ENV["obtvse_password"] ? ENV["obtvse_password"] : "password" %>
-name:                Your name
-twitter:             your_twitter_handle
-github:              your_github_handle
-email:               address@example.com
-google_analytics_id: YOUR_GA_ID
-disqus_shortname:    <%= ENV.fetch("disqus_shortname") { "" } %>
+name:       Zachary Tribbett
+title:      tribbettz
+tagline:    Unconventionally Adventurous
+slogan:     Dream Big. Think Limitlessly. Do Fearlessly.
+twitter:    tribbettz
+linkedin:   zacharytribbett
+github:     tribbettz
+aboutme:    tribbettz
+email:      tribbettz@gmail.com
+
+# Google Analytics ID
+google_analytics_id: UA-21234305-4
+
+# Admin credentials
+login:    <%= ENV["obtvse_login"] ? ENV["obtvse_login"] : "username" %>
+password: <%= ENV["obtvse_password"] ? ENV["obtvse_password"] : "password" %>

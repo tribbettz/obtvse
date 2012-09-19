@@ -11,4 +11,5 @@
  *= require normalize
  *= require_self
  *= require_tree .
+ *= require kudos.css
 */
